@@ -3,7 +3,7 @@ const pageConfig = {
   title: "CF主页-www.199881.xyz's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://-www.199881.xyz', label: 'CF主页', highlight: true },
+    { link: 'https://www.199881.xyz', label: 'CF主页', highlight: true },
 
   ],
 }
@@ -18,17 +18,17 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'am.809098.xyz',
+      id: 'boke.199881.xyz',
       // `name` is used at status page and callback message
       name: '个人博客',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://am.809098.xyz',
+      target: 'https://boke.199881.xyz/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://am.809098.xyz',
+      statusPageLink: 'https://boke.199881.xyz/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -48,8 +48,8 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'cf-wsone.us.kg',
-      name: '主页cf-wsone.us.kg',
+      id: 'wsone.us.kg',
+      name: 'cf主页-wsone.us.kg',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -65,6 +65,24 @@ const workerConfig = {
       target: 'https://cn88.viphost.vip',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://cn88.viphost.vip',
+      timeout: 10000,
+    },
+    {
+      id: 'aakk.nyc.mn',
+      name: '主页-aakk.nyc.mn',
+      method: 'GET',
+      target: 'https://aakk.nyc.mn',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://aakk.nyc.mn',
+      timeout: 10000,
+    },
+      {
+      id: 'douyin.free.nf',
+      name: '抖音-douyin.free.nf',
+      method: 'GET',
+      target: 'https://douyin.free.nf/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://douyin.free.nf/',
       timeout: 10000,
     },
   ],
