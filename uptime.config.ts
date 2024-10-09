@@ -1,12 +1,10 @@
 const pageConfig = {
   // Title for your status page
-  title: "AM科技's Status Page",
+  title: "主页cf-www.199881.xyz's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
-    { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' },
-    { link: 'https://809098.xyz', label: 'Blog'},
+    { link: 'https://-www.199881.xyz', label: '主页cf', highlight: true },
+
   ],
 }
 
@@ -50,14 +48,14 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'cf-wsone.us.kg',
+      name: '主页cf-wsone.us.kg',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
+      target: 'https://wsone.us.kg',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      statusPageLink: 'https://wsone.us.kg',
       timeout: 10000,
     },
   ],
