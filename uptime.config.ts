@@ -1,9 +1,9 @@
 const pageConfig = {
   // Title for your status page
-  title: "主页cf-www.199881.xyz's Status Page",
+  title: "CF主页-www.199881.xyz's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://-www.199881.xyz', label: '主页cf', highlight: true },
+    { link: 'https://-www.199881.xyz', label: 'CF主页', highlight: true },
 
   ],
 }
@@ -56,6 +56,15 @@ const workerConfig = {
       target: 'https://wsone.us.kg',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://wsone.us.kg',
+      timeout: 10000,
+    },
+    {
+      id: 'cn88.viphost.vip',
+      name: '新主页-cn88.viphost.vip',
+      method: 'GET',
+      target: 'https://cn88.viphost.vip',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://cn88.viphost.vip',
       timeout: 10000,
     },
   ],
