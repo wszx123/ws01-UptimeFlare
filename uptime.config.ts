@@ -4,7 +4,9 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://www.199881.xyz', label: 'CF主页', highlight: true },
-
+    { link: 'https://note.199881.xyz', label: '网络记事本', highlight: true },
+    { link: 'https://RSS-d77.us.kg', label: 'RSS-d77', highlight: true },
+    { link: 'https://img.199881.xyz', label: 'TG图床', highlight: true },
   ],
 }
 
@@ -85,6 +87,90 @@ const workerConfig = {
       statusPageLink: 'https://douyin.free.nf/',
       timeout: 10000,
     },
+      {
+      id: 'note.199881.xyz',
+      name: '网络记事本-note.199881.xyz',
+      method: 'GET',
+      target: 'https://note.199881.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://note.199881.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'd77.us.kg',
+      name: 'RSS-d77.us.kg',
+      method: 'GET',
+      target: 'https://d77.us.kg/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://d77.us.kg/',
+      timeout: 10000,
+    },
+      {
+      id: 'img.199881.xyz',
+      name: 'TG图床-img.199881.xyz',
+      method: 'GET',
+      target: 'https://img.199881.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://img.199881.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'cloudreve.111178.xyz',
+      name: 'cloudreve-cloudreve.111178.xyz',
+      method: 'GET',
+      target: 'https://cloudreve.111178.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://cloudreve.111178.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 't2v.111178.xyz',
+      name: '文本转语音-t2v.111178.xyz',
+      method: 'GET',
+      target: 'https://t2v.111178.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://t2v.111178.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'jiexi.111178.xyz',
+      name: '视频解析-jiexi.111178.xyz',
+      method: 'GET',
+      target: 'https://jiexi.111178.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://jiexi.111178.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'url.199881.xyz',
+      name: '短链接1-url.199881.xyz',
+      method: 'GET',
+      target: 'https://url.199881.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://url.199881.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'play.111178.xyz',
+      name: '音乐-play.111178.xyz',
+      method: 'GET',
+      target: 'https://play.111178.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://play.111178.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'ddyy.us.kg',
+      name: 'vps计算器-ddyy.us.kg',
+      method: 'GET',
+      target: 'https://ddyy.us.kg/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ddyy.us.kg/',
+      timeout: 10000,
+    },
+
+
+
   ],
   notification: {
     // [Optional] apprise API server URL
