@@ -89,11 +89,11 @@ const workerConfig = {
     },
       {
       id: 'douyin.free.nf',
-      name: '抖音1-douyin.free.nf',
+      name: '抖音1-douyin.000.pe',
       method: 'GET',
-      target: 'https://douyin.free.nf/',
+      target: 'https://douyin.000.pe/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://douyin.free.nf/',
+      statusPageLink: 'https://douyin.000.pe/',
       timeout: 10000,
     },
       {
@@ -125,12 +125,12 @@ const workerConfig = {
     },
 
       {
-      id: 'cloudreve.111178.xyz',
-      name: 'cloudreve-cloudreve.111178.xyz',
+      id: 'nav.211119.xyz',
+      name: '主页-nav.211119.xyz',
       method: 'GET',
-      target: 'https://cloudreve.111178.xyz/',
+      target: 'https://nav.211119.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://cloudreve.111178.xyz/',
+      statusPageLink: 'https://nav.211119.xyz/',
       timeout: 10000,
     },
       {
@@ -170,12 +170,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'boke.free.nf',
-      name: 'free博客-boke.free.nf',
+      id: 'boke.rf.gd',
+      name: 'free博客-boke.rf.gd',
       method: 'GET',
-      target: 'https://boke.free.nf/',
+      target: 'https://boke.rf.gd/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://boke.free.nf/',
+      statusPageLink: 'https://boke.rf.gd/',
       timeout: 10000,
     },
 
