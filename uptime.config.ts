@@ -4,8 +4,10 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://www.199881.xyz', label: 'CF主页', highlight: true },
+    { link: 'https://nav.211119.xyz/', label: 'nav主页', highlight: true },
+    { link: 'https://dh.9527.nyc.mn/', label: '9527主页', highlight: true },
     { link: 'https://note.199881.xyz', label: '网络记事本', highlight: true },
-    { link: 'https://RSS-d77.us.kg', label: 'RSS-d77', highlight: true },
+    { link: 'https://d77.us.kg', label: 'RSS-d77', highlight: true },
     { link: 'https://img.199881.xyz', label: 'TG图床', highlight: true },
   ],
 }
@@ -178,8 +180,44 @@ const workerConfig = {
       statusPageLink: 'https://boke.rf.gd/',
       timeout: 10000,
     },
-
       {
+      id: 'keplu.eu.org',
+      name: 'vps计算器-keplu.eu.org',
+      method: 'GET',
+      target: 'https://keplu.eu.org/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://keplu.eu.org/',
+      timeout: 10000,
+    },
+      {
+      id: 'pass.keplu.eu.org',
+      name: '密码和UUID-pass.keplu.eu.org',
+      method: 'GET',
+      target: 'https://pass.keplu.eu.org/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://pass.keplu.eu.org/',
+      timeout: 10000,
+    },
+      {
+      id: 'webmail.211119.xyz',
+      name: '21119邮箱-webmail.211119.xyz',
+      method: 'GET',
+      target: 'https://webmail.211119.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://webmail.211119.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'edgesub.d77.us.kg',
+      name: '订阅转换-edgesub.d77.us.kg',
+      method: 'GET',
+      target: 'https://edgesub.d77.us.kg/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://edgesub.d77.us.kg/',
+      timeout: 10000,
+    },
+    
+    {
       id: 'img.9527.us.kg',
       name: 'TG图床-img.9527.us.kg',
       method: 'GET',
