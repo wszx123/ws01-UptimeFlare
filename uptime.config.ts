@@ -136,7 +136,6 @@ const workerConfig = {
       statusPageLink: 'https://d77.us.kg/',
       timeout: 10000,
     },
-
       {
       id: 'nav.211119.xyz',
       name: '主页-nav.211119.xyz',
@@ -191,7 +190,6 @@ const workerConfig = {
       statusPageLink: 'https://nz.211119.xyz/',
       timeout: 10000,
     },
-    https://nz.211119.xyz/
     {
       id: 'boke.rf.gd',
       name: 'free博客-boke.rf.gd',
