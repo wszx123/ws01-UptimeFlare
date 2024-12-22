@@ -9,6 +9,8 @@ const pageConfig = {
     { link: 'https://note.199881.xyz', label: '网络记事本', highlight: true },
     { link: 'https://d77.us.kg', label: 'RSS-d77', highlight: true },
     { link: 'https://img.199881.xyz', label: 'TG图床', highlight: true },
+    { link: 'https://img.mypi.co/', label: 'mypi图床', highlight: true },
+    { link: 'https://douyin.mypi.co/', label: 'mypi抖音', highlight: true },
   ],
 }
 
@@ -90,15 +92,24 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'douyin.free.nf',
-      name: '抖音1-douyin.000.pe',
+      id: 'douyin.mypi.co',
+      name: '抖音1-douyin.mypi.co',
       method: 'GET',
-      target: 'https://douyin.000.pe/',
+      target: 'https://douyin.mypi.co/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://douyin.000.pe/',
+      statusPageLink: 'https://douyin.mypi.co/',
       timeout: 10000,
     },
       {
+      id: 'img.mypi.co',
+      name: 'mypi图床-img.mypi.co',
+      method: 'GET',
+      target: 'https://img.mypi.co/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://img.mypi.co/',
+      timeout: 10000,
+    },
+    {
       id: '9527.nyc.mn',
       name: '抖音2-9527.nyc.mn',
       method: 'GET',
@@ -164,7 +175,7 @@ const workerConfig = {
     },
       {
       id: 'nz.bjj.us.kg',
-      name: '哪吒探针-nz.bjj.us.kg',
+      name: '哪吒探针1-nz.bjj.us.kg',
       method: 'GET',
       target: 'https://nz.bjj.us.kg/',
       tooltip: 'My production server monitor',
@@ -172,6 +183,16 @@ const workerConfig = {
       timeout: 10000,
     },
       {
+      id: 'nz.211119.xyz',
+      name: '哪吒探针2-nz.211119.xyz',
+      method: 'GET',
+      target: 'https://nz.211119.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://nz.211119.xyz/',
+      timeout: 10000,
+    },
+    https://nz.211119.xyz/
+    {
       id: 'boke.rf.gd',
       name: 'free博客-boke.rf.gd',
       method: 'GET',
