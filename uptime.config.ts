@@ -146,12 +146,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'img.111178.xyz',
-      name: 'ws01图床-img.111178.xyz',
+      id: 'eyei.eu.org',
+      name: '简易记事本-eyei.eu.org',
       method: 'GET',
-      target: 'https://img.111178.xyz/',
+      target: 'https://eyei.eu.org/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://img.111178.xyz/',
+      statusPageLink: 'https://eyei.eu.org/',
       timeout: 10000,
     },
       {
@@ -173,12 +173,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'nz.bjj.us.kg',
-      name: '哪吒探针1-nz.bjj.us.kg',
+      id: 'vps.211119.xyz',
+      name: 'vps信息-vps.211119.xyz',
       method: 'GET',
-      target: 'https://nz.bjj.us.kg/',
+      target: 'https://vps.211119.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://nz.bjj.us.kg/',
+      statusPageLink: 'https://vps.211119.xyz/',
       timeout: 10000,
     },
       {
