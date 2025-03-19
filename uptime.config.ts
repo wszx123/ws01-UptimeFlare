@@ -54,14 +54,14 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'wsone.us.kg',
-      name: 'cf主页-wsone.us.kg',
+      id: 'zzq.211119.xyz',
+      name: 'cf主页-zzq.211119.xyz',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://wsone.us.kg',
+      target: 'https://zzq.211119.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://wsone.us.kg',
+      statusPageLink: 'https://zzq.211119.xyz/',
       timeout: 10000,
     },
     {
@@ -119,12 +119,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: '9527.us.kg',
-      name: '抖音3-9527.us.kg',
+      id: '9527.nyc.mn',
+      name: '抖音3-9527.nyc.mn',
       method: 'GET',
-      target: 'https://9527.us.kg/',
+      target: 'https://9527.nyc.mn/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://9527.us.kg/',
+      statusPageLink: 'https://9527.nyc.mn/',
       timeout: 10000,
     },
       {
