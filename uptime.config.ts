@@ -10,7 +10,7 @@ const pageConfig = {
     { link: 'https://d77.211119.xyz/', label: 'RSS-d77', highlight: true },
     { link: 'https://img1.199881.xyz', label: 'TG图床', highlight: true },
     { link: 'https://img.mypi.co/', label: 'mypi图床', highlight: true },
-    { link: 'https://douyin.mypi.co/', label: 'mypi抖音', highlight: true },
+    { link: 'https://88.mypi.co/', label: 'cc-抖音', highlight: true },
   ],
 }
 
@@ -24,17 +24,17 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'boke.211119.xyz',
+      id: 'cc-抖音',
       // `name` is used at status page and callback message
-      name: '个人博客',
+      name: 'cc-抖音',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://boke.211119.xyz/',
+      target: 'https://88.mypi.co/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://boke.211119.xyz/',
+      statusPageLink: 'https://88.mypi.co/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -237,12 +237,12 @@ const workerConfig = {
     },
     
     {
-      id: 'img.211119.xyz',
-      name: 'TG图床-img.211119.xyz',
+      id: 'note.211119.xyz',
+      name: 'note.211119.xyz',
       method: 'GET',
-      target: 'https://img.211119.xyz/',
+      target: 'https://note.211119.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://img.211119.xyz/',
+      statusPageLink: 'https://note.211119.xyz/',
       timeout: 10000,
     }
 
