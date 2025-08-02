@@ -73,7 +73,7 @@ export default function Home({
         <Text size="xs" mt="xs" mb="xs" style={{
           textAlign: 'center'
         }}>
-          Open-source monitoring and status page powered by{' '}
+          by{' '}
           <a href="https://github.com/wszx123/ws01-UptimeFlare" target="_blank">
             ws01-UptimeFlare
           </a>{' '}
