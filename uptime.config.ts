@@ -5,7 +5,6 @@ const pageConfig = {
   links: [
     { link: 'https://www.199881.xyz', label: 'CF主页', highlight: true },
     { link: 'https://nav.211119.xyz/', label: 'nav主页', highlight: true },
-    { link: 'https://dh.9527.nyc.mn/', label: '9527主页', highlight: true },
     { link: 'https://note.199881.xyz', label: '网络记事本', highlight: true },
     { link: 'https://d77.211119.xyz/', label: 'RSS-d77', highlight: true },
     { link: 'https://img1.199881.xyz', label: 'TG图床', highlight: true },
@@ -74,12 +73,12 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'aakk.nyc.mn',
-      name: '主页-aakk.nyc.mn',
+      id: 'img.boke.us.to',
+      name: '图床-img.boke.us.to',
       method: 'GET',
-      target: 'https://aakk.nyc.mn',
+      target: 'https://img.boke.us.to/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://aakk.nyc.mn',
+      statusPageLink: 'https://img.boke.us.to/',
       timeout: 10000,
     },
       {
@@ -92,12 +91,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'douyin.mypi.co',
-      name: '抖音1-douyin.mypi.co',
+      id: 'music.9527.nyc.mn',
+      name: '音乐-music.9527.nyc.mn',
       method: 'GET',
-      target: 'https://douyin.mypi.co/',
+      target: 'https://music.9527.nyc.mn/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://douyin.mypi.co/',
+      statusPageLink: 'https://music.9527.nyc.mn/',
       timeout: 10000,
     },
       {
