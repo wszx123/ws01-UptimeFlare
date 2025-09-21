@@ -9,7 +9,7 @@ const pageConfig = {
     { link: 'https://d77.211119.xyz/', label: 'RSS-d77', highlight: true },
     { link: 'https://img1.199881.xyz', label: 'TG图床', highlight: true },
     { link: 'https://img.mypi.co/', label: 'mypi图床', highlight: true },
-    { link: 'https://88.mypi.co/', label: 'cc-抖音', highlight: true },
+    { link: 'https://music.9527.nyc.mn/', label: 'cf-音乐', highlight: true },
   ],
 }
 
