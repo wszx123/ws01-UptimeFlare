@@ -91,12 +91,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'music.9527.nyc.mn',
-      name: '音乐-music.9527.nyc.mn',
+      id: 'dh.mbb.qzz.io',
+      name: '新主页-dh.mbb.qzz.io',
       method: 'GET',
-      target: 'https://music.9527.nyc.mn/',
+      target: 'https://dh.mbb.qzz.io/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://music.9527.nyc.mn/',
+      statusPageLink: 'https://dh.mbb.qzz.io/',
       timeout: 10000,
     },
       {
