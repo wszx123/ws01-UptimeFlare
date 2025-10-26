@@ -177,12 +177,12 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 'img.mypi.co',
-      name: 'mypi图床-img.mypi.co',
+      id: 'ngohome.eu.org',
+      name: 'ngohome图床-ngohome.eu.org',
       method: 'GET',
-      target: 'https://img.mypi.co/',
+      target: 'https://ngohome.eu.org/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://img.mypi.co/',
+      statusPageLink: 'https://ngohome.eu.org/',
       timeout: 10000,
     },
       {
