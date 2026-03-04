@@ -4,8 +4,9 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://boke.199881.xyz/', label: 'ws01博客', highlight: true },
-    { link: 'https://111178.xyz/', label: '专用主页'},
+    { link: 'note.9527.nyc.mn', label: 'ws01 NOTE' },
     { link: 'https://www.199881.xyz/', label: '主页' },
+    { link: 'https://111178.xyz/', label: '专用主页'},
   ],
 }
 
@@ -18,12 +19,12 @@ const workerConfig = {
   monitors: [
     // Example HTTP Monitor
       {
-      id: 'dh.211119.xyz',
-      name: '主页-dh.211119.xyz',
+      id: '365.indevs.in',
+      name: '新主页-365.indevs.in',
       method: 'GET',
-      target: 'https://dh.211119.xyz/',
+      target: 'https://365.indevs.in/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://dh.211119.xyz/',
+      statusPageLink: 'https://365.indevs.in/',
       timeout: 10000,
     },
       {
@@ -56,12 +57,12 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'boke.us.to',
-      name: '博客-boke.us.to',
+      id: 'boke.211119.xyz',
+      name: '博客-boke.211119.xyz',
       method: 'GET',
-      target: 'https://boke.us.to/',
+      target: 'https://boke.211119.xyz/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://boke.us.to',
+      statusPageLink: 'https://boke.211119.xyz',
       timeout: 10000,
     },
     {
@@ -164,6 +165,15 @@ const workerConfig = {
       timeout: 10000,
     },
       {
+      id: 'mjj.linkpc.net',
+      name: 'vps信息-mjj.linkpc.net',
+      method: 'GET',
+      target: 'https://mjj.linkpc.net/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://mjj.linkpc.net/',
+      timeout: 10000,
+    },
+      {
       id: 'vps.211119.xyz',
       name: 'vps信息-vps.211119.xyz',
       method: 'GET',
@@ -174,11 +184,20 @@ const workerConfig = {
     },
       {
       id: 'nz.211119.xyz',
-      name: '哪吒探针2-nz.211119.xyz',
+      name: '哪吒探针-nz.211119.xyz',
       method: 'GET',
       target: 'https://nz.211119.xyz/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://nz.211119.xyz/',
+      timeout: 10000,
+    },
+      {
+      id: 'tz.211119.xyz',
+      name: 'komari探针-tz.211119.xyz',
+      method: 'GET',
+      target: 'https://tz.211119.xyz/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://tz.211119.xyz/',
       timeout: 10000,
     },
       {
