@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://boke.199881.xyz/', label: 'ws01博客', highlight: true },
-    { link: 'note.9527.nyc.mn', label: 'ws01 NOTE' },
+    { link: 'https://note.9527.nyc.mn', label: 'ws01 NOTE' },
     { link: 'https://www.199881.xyz/', label: '主页' },
     { link: 'https://111178.xyz/', label: '专用主页'},
   ],
@@ -83,6 +83,16 @@ const workerConfig = {
       statusPageLink: 'https://blog.mbb.qzz.io/',
       timeout: 10000,
     },
+
+    {
+      id: 'd123.cc.cd',
+      name: '新笔记-d123.cc.cd',
+      method: 'GET',
+      target: 'https://d123.cc.cd/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://d123.cc.cd/',
+      timeout: 10000,
+    },    
     {
       id: 'wszx.us.to',
       name: '邮箱-wszx.us.to',
@@ -156,15 +166,32 @@ const workerConfig = {
       timeout: 10000,
     },
       {
+      id: 'aakk.nyc.mn',
+      name: '订阅管理1-aakk.nyc.mn',
+      method: 'GET',
+      target: 'https://aakk.nyc.mn/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://aakk.nyc.mn/',
+      timeout: 10000,
+    },
+    {
+      id: '9527.nyc.mn',
+      name: '音乐-9527.nyc.mn',
+      method: 'GET',
+      target: 'https://9527.nyc.mn/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://9527.nyc.mn/',
+      timeout: 10000,
+    },
       id: 'mbb.qzz.io',
-      name: '订阅管理-mbb.qzz.io',
+      name: '订阅管理2-mbb.qzz.io',
       method: 'GET',
       target: 'https://mbb.qzz.io/9527kkk/login',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://mbb.qzz.io/9527kkk/login',
       timeout: 10000,
     },
-      {
+    {
       id: 'mjj.linkpc.net',
       name: 'vps信息-mjj.linkpc.net',
       method: 'GET',
