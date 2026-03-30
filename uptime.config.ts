@@ -93,24 +93,6 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'aakk.nyc.mn',
-      name: '订阅管理1-aakk.nyc.mn',
-      method: 'GET',
-      target: 'https://aakk.nyc.mn/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://aakk.nyc.mn/',
-      timeout: 10000,
-    },
-    {
-      id: '9527.nyc.mn',
-      name: '音乐-9527.nyc.mn',
-      method: 'GET',
-      target: 'https://9527.nyc.mn/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://9527.nyc.mn/',
-      timeout: 10000,
-    },
-    {
       id: 'wszx.us.to',
       name: '邮箱-wszx.us.to',
       method: 'GET',
@@ -184,7 +166,7 @@ const workerConfig = {
     },
       {
       id: 'mbb.qzz.io',
-      name: '订阅管理2-mbb.qzz.io',
+      name: '订阅管理-mbb.qzz.io',
       method: 'GET',
       target: 'https://mbb.qzz.io/9527kkk/login',
       tooltip: 'My production server monitor',
